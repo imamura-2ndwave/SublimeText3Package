@@ -5,6 +5,7 @@
 	"fallback_encoding": "UTF-8",
 	"fold_buttons": false,
 	"font_size": 10,
+	"font_face": "SourceHanCodeJP-Normal",
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
