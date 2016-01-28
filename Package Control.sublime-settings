@@ -13,6 +13,7 @@
 		"BracketHighlighter",
 		"Case Conversion",
 		"Color Highlighter",
-		"Compass"
+		"Compass",
+		"CSS Format"
 	]
 }
