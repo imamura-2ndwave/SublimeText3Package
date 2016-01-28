@@ -25,6 +25,7 @@
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-phpcs",
+		"SublimeLinter-phpmd",
 		"Tag",
 		"Theme - Cobalt2",
 		"TrailingSpaces"
