@@ -1,0 +1,32 @@
+{
+	"user":
+	{
+		"gutter_theme": "Packages/SublimeLinter/gutter-themes/Blueberry/cross/Blueberry - cross.gutter-theme",
+		"lint_mode": "background",
+		"linters":
+		{
+			"phpcs":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				],
+				"standard": "PSR2"
+			},
+			"phpmd":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				],
+				"rulesets": "cleancode,codesize,controversial,design,naming,unusedcode"
+			}
+		}
+	}
+}
