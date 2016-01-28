@@ -9,6 +9,7 @@
 		"AlignTab",
 		"All Autocomplete",
 		"ApacheConf.tmLanguage",
-		"AutoFileName"
+		"AutoFileName",
+		"BracketHighlighter"
 	]
 }
