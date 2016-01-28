@@ -1,4 +1,6 @@
 [
+    // File Full Path Copy to Clipboard
+    { "keys": ["super+i"], "command": "copy_path" },
     // Goto-CSS-Declaration
     {
         "keys": ["ctrl+alt+."], "command": "goto_css_declaration",
