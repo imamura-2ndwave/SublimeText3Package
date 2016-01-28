@@ -1,4 +1,5 @@
 [
+    // Goto-CSS-Declaration
     {
         "keys": ["ctrl+alt+."], "command": "goto_css_declaration",
         "args": {"goto": "next"}
@@ -6,5 +7,7 @@
     {
         "keys": ["ctrl+alt+,"],  "command": "goto_css_declaration",
         "args": {"goto": "prev"}
-    }
+    },
+    // RecentActiveFiles
+    { "keys": ["ctrl+r"], "command": "recent_active_files" },
 ]
