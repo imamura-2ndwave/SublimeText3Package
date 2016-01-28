@@ -24,6 +24,7 @@
 		"Sublime Bookmarks",
 		"SublimeCodeIntel",
 		"SublimeLinter",
+		"SublimeLinter-json",
 		"SublimeLinter-phpcs",
 		"SublimeLinter-phpmd",
 		"Tag",
