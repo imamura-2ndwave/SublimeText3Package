@@ -19,5 +19,7 @@
 	"tab_size": 4,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": false
+	"word_wrap": false,
+	"color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
+	"theme": "Cobalt2.sublime-theme"
 }
