@@ -67,38 +67,38 @@ Sublime Text 3\Packages\Userの配下をコピーすれば同じ環境になり�
 
 ## 導入パッケージ一覧
 
-Alignment
-AlignTab
-All Autocomplete
-ApacheConf.tmLanguage
-AutoFileName
-BracketHighlighter
-Case Conversion
-Color Highlighter
-Compass
-CSS Format
-DocBlockr
-Goto-CSS-Declaration
-Package Control
-PHP-Twig
-Pretty JSON
-RecentActiveFiles
-SCSS
-SideBarEnhancements
-Sublime Bookmarks
-SublimeCodeIntel
-SublimeLinter
-SublimeLinter-json
-SublimeLinter-phpcs
-SublimeLinter-phpmd
-Sublimerge Pro
-Tag
-Theme - Cobalt2
-TrailingSpaces
+* Alignment
+* AlignTab
+* All Autocomplete
+* ApacheConf.tmLanguage
+* AutoFileName
+* BracketHighlighter
+* Case Conversion
+* Color Highlighter
+* Compass
+* CSS Format
+* DocBlockr
+* Goto-CSS-Declaration
+* Package Control
+* PHP-Twig
+* Pretty JSON
+* RecentActiveFiles
+* SCSS
+* SideBarEnhancements
+* Sublime Bookmarks
+* SublimeCodeIntel
+* SublimeLinter
+* SublimeLinter-json
+* SublimeLinter-phpcs
+* SublimeLinter-phpmd
+* Sublimerge Pro
+* Tag
+* Theme - Cobalt2
+* TrailingSpaces
 
 ## 導入パッケージ一覧 Windows Only
 
-IMESupport
+* IMESupport
 
 ## 導入パッケージ一覧 Mac Only
 
