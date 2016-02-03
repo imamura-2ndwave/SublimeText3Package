@@ -67,6 +67,8 @@ Sublime Text 3\Packages\Userの配下をコピーすれば同じ環境になり�
 
 ## 導入パッケージ一覧
 
+[導入パッケージの概要](PACKAGE.md)
+
 * Alignment
 * AlignTab
 * All Autocomplete
@@ -102,13 +104,13 @@ Sublime Text 3\Packages\Userの配下をコピーすれば同じ環境になり�
 
 ## 導入パッケージ一覧 Mac Only
 
-# 未導入パッケージ
+* 特になし
 
 ## 日本化対応プラグイン
 
 ### Japanize
 
-メニューの日本語化パッケージ
+* メニューの日本語化パッケージ
 
 ## 文字コード対策プラグイン
 
