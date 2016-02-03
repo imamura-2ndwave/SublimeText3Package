@@ -63,11 +63,11 @@ Sublime Text 3\Packages\Userの配下をコピーすれば同じ環境になり�
 ### 設定の同期 Mac
 
 「Mac」ブランチをダウンロードしてください。
-保存先:
 
 ## 導入パッケージ一覧
 
-[導入パッケージの概要](PACKAGE.md)
+* [導入パッケージの概要](PACKAGE.md)
+* [導入パッケージのインストールメモ](INSTALL.md)
 
 * Alignment
 * AlignTab
