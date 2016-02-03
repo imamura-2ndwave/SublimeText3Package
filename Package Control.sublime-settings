@@ -28,6 +28,7 @@
 		"Sublime Bookmarks",
 		"SublimeCodeIntel",
 		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-json",
 		"SublimeLinter-php",
 		"SublimeLinter-phpcs",

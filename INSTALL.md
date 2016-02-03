@@ -11,6 +11,7 @@ Package Controllはインストールされていること。
 
 1. [Release](https://github.com/adobe-fonts/source-han-code-jp/tree/release)ブランチから最新バージョンをダウンロードする。
 2. OTFフォルダ内のフォントをインストールする。
+3. Sublime Textのユーザー設定に追記する。
 
 Preferences > Settings - User
 
@@ -32,10 +33,15 @@ Package Controllの保存先: %appdata%\Sublime Text 3\Packages\User
 ### .gitignore
 
 ```
+*.cache
+*_tmp
+*~
 Package Control.last-run
 Package Control.ca-list
 Package Control.ca-bundle
+Package Control.merged-ca-bundle
 Package Control.system-ca-bundle
+Package Control.user-ca-bundle
 Package Control.cache/
 Package Control.ca-certs/
 ```
@@ -114,6 +120,8 @@ Preferences > Settings - User
 
 ## Node.js インストール
 
+Sublime Textで構文チェックを行うためにNode.jsをインストールする。
+
 [Nodist](https://github.com/marcelklehr/nodist/releases/)
 
 最新リリースのNodistSetup-v0.7.2.exe インストーラをダウンロードします。
@@ -178,7 +186,40 @@ v5.5.0
 3.6.0
 ```
 
+### npmでphplintをインストール
+
+```
+> npm install -g phplint
+> phplint -v
+1.7.0
+```
+
+### npmでeslintをインストール
+
+Javascriptの構文チェックするためにESLintを導入
+
+- [ESLint 最初の一歩](http://qiita.com/mysticatea/items/f523dab04a25f617c87d)
+- [時代はESLint。JSLintでもJSHintでもなくESLint。](http://qiita.com/inuscript/items/dcf48f56d8f484c0a1a8)
+
+
+#### ESLint の特徴
+
+- すべてのルールを自由に on/off できる
+- 自分のプロジェクトに合わせたカスタムルールを簡単に作れる
+- 豊富なビルトイン ルール (1.0.0 時点で 173 個) に加えて、たくさんのプラグインが公開されている
+- ECMAScript 2015 (ES6) をサポートしている
+- React の JSX 記法 をサポートしている
+- Babel と連携することで、ECMAScript 2016 (ES7) 以降の構文や Flow 型注釈にも対応できる
+
+```
+> npm install -g eslint
+> eslint -v
+v1.10.3
+```
+
 ## Ruby インストール手順
+
+Sublime Textで構文チェックを行うためにRubyをインストールする。
 
 [Ruby公式](http://rubyinstaller.org/)
 
@@ -214,22 +255,26 @@ gem install compass
 gem install scss_lint
 ```
 
-
 ## 構文チェックパッケージ
 
-[SublimeLinter](http://sublimelinter.readthedocs.org/en/latest/index.html)
+### SublimeLinter
 
-* 上記プラグインは必須。
+構文チェックの基本パッケージ。
+
+#### 表示スタイルの変更（お好み）
+
+Tools > SublimeLinter > Mark Style > Outline
 
 ### PHP構文チェック
 
 SublimeLinter-php
+SublimeLinter-phplint
 SublimeLinter-phpcs
 SublimeLinter-phpmd
 
 * 上記3つのプラグインをインストール。
 
-#### SublimeLinter-php
+#### SublimeLinter-php, SublimeLinter-phplint
 
 PHP構文チェッカー。不正なPHPコードがあれば、エラーを表示してくれる。
 
@@ -261,12 +306,18 @@ PHP構文チェッカー。不必要な変数宣言などの余分なコード�
 > phpmd --version
 ```
 
+### Javascript構文チェック
+
+#### SublimeLinter-contrib-eslint
+
+上記プラグインをインストール。
+npm導入済み、ESLint導入済み。
+
 ### SCSS構文チェック
 
 #### SublimeLinter-contrib-scss-lint
 
-* 上記プラグインをインストール。
-
+上記プラグインをインストール。
 Ruby導入済み、scss_link導入済み。
 
 ### TrailingSpaces

@@ -90,6 +90,7 @@ Sublime Text 3\Packages\Userの配下をコピーすれば同じ環境になり�
 * Sublime Bookmarks
 * SublimeCodeIntel
 * SublimeLinter
+* SublimeLinter-contrib-eslint
 * SublimeLinter-json
 * SublimeLinter-php
 * SublimeLinter-phplint
