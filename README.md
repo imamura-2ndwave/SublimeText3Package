@@ -91,6 +91,8 @@ Sublime Text 3\Packages\Userの配下をコピーすれば同じ環境になり�
 * SublimeCodeIntel
 * SublimeLinter
 * SublimeLinter-json
+* SublimeLinter-php
+* SublimeLinter-phplint
 * SublimeLinter-phpcs
 * SublimeLinter-phpmd
 * Sublimerge Pro
