@@ -36,19 +36,19 @@ html, css等のリンクファイル名の補完。
 
 キャメルケースやパスカルケース、スネークケースにショートカットで変換できる。（イチオシ）
 
-To snake_case: 'ctrl+alt+c', 'ctrl+alt+s'
-To camelCase: 'ctrl+alt+c', 'ctrl+alt+c'
-To PascalCase: 'ctrl+alt+c', 'ctrl+alt+p'
-To dot.case: 'ctrl+alt+c', 'ctrl+alt+d'
-To dash-case: 'ctrl+alt+c', 'ctrl+alt+h'
-To separate words: 'ctrl+alt+c', 'ctrl+alt+w'
-To separate with forward slashes: 'ctrl+alt+c', 'ctrl+alt+/'
-To separate with backslashes: 'ctrl+alt+c', 'ctrl+alt+b'
-To toggle between snake_case, camelCase and PascalCase: 'ctrl+shift+-'
+* To snake_case: 'ctrl+alt+c', 'ctrl+alt+s'
+* To camelCase: 'ctrl+alt+c', 'ctrl+alt+c'
+* To PascalCase: 'ctrl+alt+c', 'ctrl+alt+p'
+* To dot.case: 'ctrl+alt+c', 'ctrl+alt+d'
+* To dash-case: 'ctrl+alt+c', 'ctrl+alt+h'
+* To separate words: 'ctrl+alt+c', 'ctrl+alt+w'
+* To separate with forward slashes: 'ctrl+alt+c', 'ctrl+alt+/'
+* To separate with backslashes: 'ctrl+alt+c', 'ctrl+alt+b'
+* To toggle between snake_case, camelCase and PascalCase: 'ctrl+shift+-'
 
 ### Color Highlighter
 
-#FF00FF とか rgb(255, 200, 100) とかの色コードを実際の色で表示してくれる
+CSSのカラーコードを実際の色で表示してくれる。
 
 ### Compass
 
@@ -93,10 +93,10 @@ SCSSの文法ハイライト。
 
 ブックマークを付けて、いつでも自由に移動できるプラグイン。
 
-ブックマークを付ける: ctrl+shift+F2
-ブックマークを外す:ctrl+F2
-次のブックマークに移動:shift+F2
-前のブックマークに移動:ctrl+F2
+* ブックマークを付ける: ctrl+shift+F2
+* ブックマークを外す:ctrl+F2
+* 次のブックマークに移動:shift+F2
+* 前のブックマークに移動:ctrl+F2
 
 ### SublimeCodeIntel
 
@@ -117,10 +117,9 @@ PHP構文チェッカー。不正なPHPコードがあれば、エラーを表�
 
 ### SublimeLinter-phpcs
 
-PHP構文チェッカー。PSR2などのコーディング規約に違反している箇所を教えてくれる。
-
-(PSR-2: Coding Style Guide)[http://www.php-fig.org/psr/psr-2/]
-(PSR-2 コーディングガイド（日本語）)[http://www.infiniteloop.co.jp/docs/psr/psr-2-coding-style-guide.html]
+* PHP構文チェッカー。PSR2などのコーディング規約に違反している箇所を教えてくれる。
+* [PSR-2: Coding Style Guide](http://www.php-fig.org/psr/psr-2/)
+* [PSR-2 コーディングガイド（日本語）](http://www.infiniteloop.co.jp/docs/psr/psr-2-coding-style-guide.html)
 
 ### SublimeLinter-phpmd
 
@@ -128,7 +127,7 @@ PHP構文チェッカー。不必要な変数宣言などの余分なコード�
 
 ### Sublimerge Pro
 
-差分表示＆マージパッケージ
+差分表示＆マージパッケージ。
 Ctrl+Alt+D, Compare to view...
 
 ### Tag
