@@ -3,35 +3,48 @@
 パッケージのインストールメモ。
 Package Controllはインストールされていること。
 
-## 推奨フォント
+## フォントの導入
 
-(Source Han Code JP)[https://github.com/adobe-fonts/source-han-code-jp]
+日本語表示に配慮されたプログラミング用「Source Han Code」フォントがおすすめです。
+
+[Source Han Code JP](https://github.com/adobe-fonts/source-han-code-jp)
+
+1. [Release](https://github.com/adobe-fonts/source-han-code-jp/tree/release)ブランチから最新バージョンをダウンロードする。
+2. OTFフォルダ内のフォントをインストールする。
 
 Preferences > Settings - User
 
+```
 {
     "font_face": "SourceHanCodeJP-Normal"
 }
+```
+
+フォントの太さは好みで変更。
 
 ## 設定の同期
 
-[packagecontrol/docs/syncing](https://packagecontrol.io/docs/syncing#git)
+[Package Controllの同期方法](https://packagecontrol.io/docs/syncing#git)
 
-SavePath: %appdata%\Sublime Text 3\Packages\User
+Package Controllの保存先: %appdata%\Sublime Text 3\Packages\User
+保存先のディレクトリを合わせてあげれば、不足しているパッケージ等は起動時に自動的にインストールされる。
 
 ### .gitignore
 
+```
 Package Control.last-run
 Package Control.ca-list
 Package Control.ca-bundle
 Package Control.system-ca-bundle
 Package Control.cache/
 Package Control.ca-certs/
+```
 
 ## 基本設定
 
 Preferences > Settings - User
 
+```
 {
     "color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
     "default_encoding": "UTF-8",
@@ -58,11 +71,13 @@ Preferences > Settings - User
     "trim_trailing_white_space_on_save": true,
     "word_wrap": false
 }
+```
 
 ## 推奨ショートカットキー設定 Windows
 
 Preference > Key Bindings - User
 
+```
 [
     // File Full Path Copy to Clipboard
     { "keys": ["super+i"], "command": "copy_path" },
@@ -78,6 +93,7 @@ Preference > Key Bindings - User
     // RecentActiveFiles
     { "keys": ["ctrl+r"], "command": "recent_active_files" },
 ]
+```
 
 ファイルのフルパスをコピー: Windows+i
 
@@ -89,10 +105,12 @@ Theme - Cobalt2
 
 Preferences > Settings - User
 
+```
 {
     "color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
     "theme": "Cobalt2.sublime-theme"
 }
+```
 
 ## 構文チェックパッケージ
 
@@ -155,4 +173,6 @@ PHP構文チェッカー。不必要な変数宣言などの余分なコード�
 
 Preferences > Package Setting > Trailing Spaces > Setting User
 
+```
 {"trailing_spaces_regexp": "[　 \t]+$"}
+```

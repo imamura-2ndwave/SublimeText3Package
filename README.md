@@ -27,7 +27,7 @@ import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc5
 
 ## 推奨フォントのインストール
 
-日本語表示に配慮された「Source Han Code」フォントがおすすめです。
+日本語表示に配慮されたプログラミング用「Source Han Code」フォントがおすすめです。
 
 ### Source Han Code JPの特徴
 
