@@ -27,7 +27,7 @@ Preferences > Settings - User
 
 [Package Controllの同期方法](https://packagecontrol.io/docs/syncing#git)
 
-Package Controllの保存先: %appdata%\Sublime Text 3\Packages\User
+Package Controllの保存先: %appdata%\Sublime Text 3\Packages\User  
 保存先のディレクトリを合わせてあげれば、不足しているパッケージ等は起動時に自動的にインストールされる。
 
 ### .gitignore
